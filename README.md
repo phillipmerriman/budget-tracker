@@ -60,66 +60,39 @@ Track your budget with Budget Tracker. The app will keep track of the exercises 
 ### Snippets
 
 
-1. Adding to an array type
+1. webmanifest
 
 ```javascript
 
-    // Create workout model
-const workoutSchema = new Schema({
-  day: {
-    type: Date,
-    default: Date.now,
-  },
-  exercises: [
-    {
-      type: {
-        type: String,
-        required: true,
-      },
-
-      name: {
-        type: String,
-        required: true,
-        trim: true,
-      },
-
-      duration: {
-        type: Number,
-        required: true,
-      },
-
-      distance: {
-        type: Number,
-        required: true,
-      },
-
-      weight: {
-        type: Number,
-        required: true,
-      },
-
-      reps: {
-        type: Number,
-        required: true,
-      },
-
-      sets: {
-        type: Number,
-        required: true,
-      },
-    },
-  ],
-  
-},
 {
-  toJSON: {
-    virtuals: true,
-  },
-}
-);
+    "name": "Budget Tracker",
+    "short_name": "Budget Tracker",
+    "icons": [
+      {
+        "src": "/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/icon-192x192.png",
+        "sizes": "169x169",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/icon-512x512.png",
+        "sizes": "452x452",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#317EFB",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone"
+  }
+  
     
 ```
-* This is the Mongoose model used to create workouts.
+
 
 ## Credits
 
@@ -144,9 +117,4 @@ const workoutSchema = new Schema({
 </p>
 
 ## License
-
-
-</br>
-<p align="center">
-    <img align="center" src="https://img.shields.io/github/license/kqarlos/fitness-tracker?style=for-the-badge" alt="MIT license" />
-</p>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
