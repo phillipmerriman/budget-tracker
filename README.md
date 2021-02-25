@@ -44,18 +44,18 @@ Track your budget with Budget Tracker. The app will keep track of the exercises 
 
 ### Screeshots
 
-1. Homepage displaying last workout
+1. Chart displaying last workout
 
-![Site](public/assets/homepage.PNG)
+![Site](public/assets/chart.PNG)
 
-2. Creating Workouts
+2. Graph displaying data from the chart
 
 ![Site](public/assets/live.PNG)
 
 
-3. Last Week's Summary
+3. Main home page
 
-![Site](public/assets/dash.PNG)
+![Site](public/assets/main.PNG)
 
 ### Snippets
 
