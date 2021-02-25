@@ -50,7 +50,7 @@ Track your budget with Budget Tracker. The app will keep track of the exercises 
 
 2. Graph displaying data from the chart
 
-![Site](public/assets/live.PNG)
+![Site](public/assets/graph.PNG)
 
 
 3. Main home page
